@@ -1,0 +1,48 @@
+{
+  "createUser": {
+    "id": 123456789,
+    "name": "Srinu Kodi",
+    "username": "Srinu",
+    "email": "srinu@kodi.com",
+    "address": {
+      "street": "India",
+      "suite": "Suite 1",
+      "city": "Pune",
+      "zipcode": "412114",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031",
+    "website": "www.srinukodi.org",
+    "company": {
+      "name": "SrinuKodi Pvt Ltd",
+      "catchPhrase": "Solution Matters",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "updateUser": {
+    "id": 2,
+    "name": "Dr. Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  }
+}
