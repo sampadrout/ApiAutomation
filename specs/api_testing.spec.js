@@ -1,5 +1,5 @@
 let request = require('supertest');
-let payload = require('./payload.json');
+let payload = require('../testdata/payload.json');
 let API = 'http://jsonplaceholder.typicode.com';
 
 describe('API Testing', function () {
