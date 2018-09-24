@@ -1,12 +1,11 @@
 let req = require('supertest');
-var r;
 
 class api {
     get(endPoint) {
         return req(endPoint).get('')
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/json')
-            .then(function (err, res) {
+            .then(function (res, err) {
                 return res;
             });
     }
@@ -16,7 +15,7 @@ class api {
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/json')
             .send(requestBody)
-            .then(function (err, res) {
+            .then(function (res, err) {
                 return res;
             });
     }
@@ -26,7 +25,7 @@ class api {
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/json')
             .send(requestBody)
-            .then(function (err, res) {
+            .then(function (res, err) {
                 return res;
             });
     }
@@ -35,7 +34,7 @@ class api {
         return req(endPoint).delete('')
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/json')
-            .then(function (err, res) {
+            .then(function (res, err) {
                 return res;
             });
     }
