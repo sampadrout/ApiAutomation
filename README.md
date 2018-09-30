@@ -8,13 +8,12 @@ Install Node & NPM:<br>
 Goto below URL, download Node and install it. You'are all set to run the tests.<br>
 https://www.npmjs.com/get-npm
 
-1. First of all clone this repo
-2. Open the repo in any IDE
-3. Run `npm install`
-4. Now run `npm test`
+1. First of all clone this repo & open in an IDE
+2. Run `npm install`
+3. Now run `npm test`
 
-If you want to run specific test suites like smoke or regression, then run below command<br>
-You can add the spec files under these directories and that's it !
+If you want to run specific test suites like smoke or regression, then run below command.
+You can add the spec files under these directories and that's it !<br><br>
 `npm run smoke` <br>
 `npm run regression`
 
