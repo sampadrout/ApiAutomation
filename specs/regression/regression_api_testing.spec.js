@@ -1,8 +1,8 @@
 let request = require('supertest');
-let payload = require('../testdata/payload.json');
-let api = require('../src/api');
+let payload = require('../../testdata/payload.json');
+let api = require('../../src/api');
 
-describe('API Testing', function () {
+describe('API Regression Testing', function () {
 
     // Creating the user using POST method
     test('Framework POST method testing', function () {

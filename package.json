@@ -4,7 +4,9 @@
   "description": "api-test-automation-by-supertest",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/jest/bin/jest.js --detectOpenHandles"
+    "test": "./node_modules/jest/bin/jest.js --detectOpenHandles",
+    "smoke": "./node_modules/jest/bin/jest.js --testPathPattern=specs/smoke/smoke_api_testing.spec.js",
+    "regression": "./node_modules/jest/bin/jest.js --testPathpattern=specs/regression/regression_api_testing.spec.js"
   },
   "author": "srinu kodi",
   "license": "ISC",

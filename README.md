@@ -10,8 +10,13 @@ https://www.npmjs.com/get-npm
 
 1. First of all clone this repo
 2. Open the repo in any IDE
-3. Run "npm install"
-4. Now run "npm test"
+3. Run `npm install`
+4. Now run `npm test`
+
+If you want to run specific test suites like smoke or regression, then run below command<br>
+You can add the spec files under these directories and that's it !
+`npm run smoke` <br>
+`npm run regression`
 
 <b>results:</b><br>
 result report(index.html) is generated into results directory.
